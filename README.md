@@ -1,2 +1,8 @@
-# ai-firefighter
-AI Firefighter: A Physics Informed Decision-Making Neural Network for Optimized Firefighting
+# AI Firefighter: A Physics Informed Decision-Making Neural Network for Optimized Firefighting
+
+Check out the published paper here! 
+https://ieeexplore.ieee.org/document/10937583
+
+**Abstract**
+
+Due to climate change, the threat of wildfire has dramatically increased. According to the National Interagency Fire Center, the area burned from 1983 to 2021 increased from 1,323,666 acres to 7,125,643 acres. Additionally, as humans encroach further into wildland areas, property losses have also increased. An AON study showed that from 2011 to 2020, losses grew from $2.39B to $20.02B. Given the limited success in fire prevention, one option to mitigate wildfires is to optimize our firefighting practices. We envision a future where AI powered robots will perform the majority of firefighting duties, including aerial water drops and ground-based blitz attacks. However, this technology is only possible if we can teach an AI to make real-time decisions based on physics. To this end, we have created a physics informed decision-making neural network (NN) for optimized firefighting on arbitrary landscapes. Specifically, given fire locations on a landscape, our NN can predict the water tank pressure needed to spray water on as many fires as possible. This means our NN is optimized to extinguish fires using the least amount of water. To create this NN, we followed four steps: we used the particle-in-cell method to spray pressurized water on a landscape; we ran 1,008 simulations, each time using a different water pressure and landscape geometry; from these results, we created a dataset relating water pressure to the proportion of fires extinguished; finally, we trained the NN on the dataset. During validation, our NN selected an optimal firefighting strategy with 90% accuracy.
